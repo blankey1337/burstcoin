@@ -8,6 +8,8 @@ brs.log.*
 /conf/brs.properties*
 _config.yml
 /html/ui/doc/*
+/html/angular/node_modules
+/html/angular/dist
 target
 *.prefs
 .project
