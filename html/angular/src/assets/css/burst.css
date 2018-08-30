@@ -1,22 +1,6 @@
 /*
- * It is advised not to edit the smartadmin_production.css
- * as this will override any changes you make in the 
- * later versions of this theme. 
- * 
- * We advise that you use use this CSS to override 
- * SmartAdmin styles. 
- * 
- * Rename the stylesheet to whatever your liking so it will stay
- * unique to you with each update of SmartAdmin.
- */
-
-/*
- * INDEX
- * 
- * - HTML
- * - BODY
- * - CUSTOM STYLES
- */
+BURST THEME
+*/
  
  #logo {
      margin-top:10px;
@@ -25,4 +9,46 @@
 
 .smart-style-4 #header>:first-child {
     background:#367fa9;
+}
+
+.smart-style-4 aside {
+    background:#222d32;
+}
+
+.smart-style-4 nav ul li a {
+    color:#b8c7ce;
+}
+
+.smart-style-4:not(.menu-on-top) nav ul li a:hover {
+    background:#1e282c;
+}
+
+.smart-style-4 #header {
+    background:#3c8dbc;
+    box-shadow: none;
+}
+
+.btn-header>:first-child>a {
+    color:#fff;
+    background:none; 
+    border:none;
+    cursor:pointer !important;
+}
+
+.btn-header>:first-child>a:hover {
+    color:#fff;
+    background:#357ca5; 
+    border:none;
+}
+
+.btn-header.pull-left>:first-child>a {
+    margin-left:10px;
+}
+
+header a, header a:hover {
+    color:#fff;
+}
+
+.smart-style-4 nav ul li.open>a, .smart-style-4 nav ul ul, .smart-style-4.minified nav li li, .smart-style-4.minified nav ul ul {
+    background: #2c3b41;
 }
