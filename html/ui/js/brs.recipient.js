@@ -153,6 +153,7 @@ var BRS = (function(BRS, $, undefined) {
     };
 
     BRS.getAccountError = function(accountId, callback) {
+        console.log('test');
         BRS.sendRequest("getAccount", {
             "account": accountId
         }, function(response) {
@@ -189,7 +190,7 @@ var BRS = (function(BRS, $, undefined) {
                 } else {
                     callback({
                         "type": "warning",
-                        "message": $.t("recipient_no_public_key_pka", {
+                        "message": $.t("recipient_no_public_key", {
                             "burst": BRS.formatAmount(response.unconfirmedBalanceNQT, false, true)
                         }),
                         "account": response,
